@@ -11,8 +11,8 @@ describe('login', ()=>{
         //Para inserir informações no elemento utilizar a função TYPE.
 
         /* cy.get('#email').type ('papito@webdojo.com')
-           cy.get('#password').type ('katana123')
-           cy.contains('button', 'Entrar').click() 
+        cy.get('#password').type ('katana123')
+        cy.contains('button', 'Entrar').click() 
         */
     cy.get('[data-cy="user-name"]')
           .should('be.visible')
